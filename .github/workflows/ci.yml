@@ -1,4 +1,4 @@
-name: Shahzaib JANI
+name: Python Linting and Testing
 
 on:
   push:
@@ -27,7 +27,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install flake8
-          pip install unittest
 
       # Run linting
       - name: Run flake8 linting
